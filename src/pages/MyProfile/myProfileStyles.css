@@ -1,0 +1,201 @@
+.myprofilePage{
+    position: relative;
+    top:64px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.spinner{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  margin: auto;
+  background-color: #c5cef6;
+  height: 100vh;
+}
+
+.mycover{
+    width: 100%;
+}
+
+.edit{
+    display: flex;
+}
+.mybanner{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 15px #000000;
+  }
+
+.myprofile{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    background-color: #c5cef6;
+  }
+  
+  
+  .myprofileLeft{
+    position: relative;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-top: none;
+  }
+
+  
+  .myinfo{
+    position: relative;
+    bottom:70px;
+    margin-left: 1px;
+
+  }
+
+  .myprofileImg{width: 95%;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  bottom: 90px;
+  }
+  
+  .mypname {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+    color: black;
+    white-space: nowrap;
+  }
+
+
+
+  .myphandle {
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+    color:  black;
+    white-space: nowrap;
+  }
+  
+  .mypbio {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    font-family: cursive;
+    color: black;
+    margin-top: 12px;
+  }
+
+  .attr{
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    font-family: cursive;
+    color: black;
+    flex-direction: column;
+  }
+
+  .additional{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 12px;
+  }
+  .myfollow {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 20px;
+}
+
+.editBtn button{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border:1.5px solid black;
+  background-color: #7aa0ff;
+  height: 38px;
+  padding: 10px;
+}
+
+.editBtn button:hover{
+  background-color: #6d80f4;
+}
+
+.editBtn a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  font-family: cursive;
+}
+
+.editBtn a:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.myprofileRight{
+  width: 100%;
+}
+
+.mypostsType{
+  height: 50px;
+  background-color: bisque;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.mytab{
+  gap:100px;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: cursive;
+  align-items: center;
+  display: flex;
+}
+
+.mytab a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.mytab a:hover{
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+
+.notfound{
+  font-family: cursive;
+  margin-top: 15px;
+}

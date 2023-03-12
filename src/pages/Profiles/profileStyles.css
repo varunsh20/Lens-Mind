@@ -1,0 +1,163 @@
+.profilePage{
+    position: relative;
+    top:64px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.spinner{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: center;
+  margin: auto;
+  background-color: #c5cef6;
+  height: 100vh;
+}
+
+.cover{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-bottom: 1px solid black;
+    box-shadow: 2px 2px 15px #000000;
+  }
+
+.profile{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    background-color: #c5cef6;
+  }
+  
+  
+  .profileLeft{
+    position: relative;
+    padding: 20px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    background-color: lightgoldenrodyellow;
+    border-top: none;
+  }
+
+  
+  .info{
+    position: relative;
+    bottom:70px;
+    margin-left: 1px;
+
+  }
+
+  .profileImg{width: 95%;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+  bottom: 90px;
+  }
+  
+  .pname {
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+    color: black;
+    white-space: nowrap;
+  }
+  
+  
+  .phandle {
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+    color:  black;
+    white-space: nowrap;
+  }
+  
+  .pbio {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    font-family: cursive;
+    color: black;
+    margin-top: 12px;
+  }
+
+  .attr{
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    font-family: cursive;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .additional{
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 12px;
+  }
+  .follow {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: cursive;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: black;
+    margin-top: 20px;
+}
+
+.profileRight{
+  width: 100%;
+}
+
+.postsType{
+  height: 50px;
+  background-color: bisque;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+.tab{
+  gap:100px;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: cursive;
+  align-items: center;
+  display: flex;
+}
+
+.tab a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.tab a:hover{
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+

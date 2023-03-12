@@ -1,0 +1,13 @@
+.intBtn button{
+    display: flex;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.intBtn button:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #a0ffc2;
+}

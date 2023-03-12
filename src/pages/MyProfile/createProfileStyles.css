@@ -1,0 +1,32 @@
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:200px;
+}
+.err{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:200px;   
+}
+
+.spinner{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    margin: auto;
+    background-color: #c5cef6;
+    height: 100vh;
+}
+
+.sbmterr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top:200px;   
+}

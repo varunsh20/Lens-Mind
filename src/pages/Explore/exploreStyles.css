@@ -1,0 +1,35 @@
+.exp{
+    top:64px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    width: 100%;
+    gap:18px;
+    text-align: center;
+    background-color: peachpuff;
+    border-bottom: 3px solid black;
+  }
+
+.menuI{
+    padding: 20px 20px 5px 22px;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    border-bottom: 2px solid black;
+}
+
+.menuI a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Mabry-Regular;
+}
+
+.menuI a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #ef8a5f;
+
+}

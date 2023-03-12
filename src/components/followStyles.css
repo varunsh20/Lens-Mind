@@ -1,0 +1,33 @@
+
+.followBtn button{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  background-color: #7aa0ff;
+  height: 38px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: cursive;
+  width: 65%;
+  justify-content: center;
+  }
+  
+  .followBtn button:hover{
+    background-color: #6d80f4;
+    cursor: pointer;
+  }
+  
+
+  .spinner{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    margin: auto;
+    background-color: #c5cef6;
+    height: 100vh;
+}

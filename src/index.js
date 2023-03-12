@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ThirdwebProvider, ChainId } from "@thirdweb-dev/react";
+import { ApolloProvider } from "@apollo/client";
+import { apolloClient} from "./auth-fetcher";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const desiredChainId = ChainId.Mumbai;
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <ThirdwebProvider desiredChainId={desiredChainId}>
+        <ApolloProvider client={apolloClient()}>
+        <App />
+        </ApolloProvider>
+    </ThirdwebProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

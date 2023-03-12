@@ -1,0 +1,107 @@
+.ycards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 30px;
+    align-items: flex-start;
+    margin: 20px;
+    }
+
+    .spinner{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        justify-content: center;
+        margin: auto;
+        background-color: #c5cef6;
+        height: 100vh;
+    }
+.cont{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(128, 128, 128, 0.989); 
+}
+
+.bgImage{
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    background-color: black;
+}
+
+.coverImg {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.detail{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 90%;
+  background-color: cornsilk;
+}
+.title-div {
+    margin-top: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.title-div p {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.middle {
+    height: 50px;
+    display: flex;
+    margin-bottom: 5px;
+    font-family: cursive;
+}
+.bottom {
+    align-items: baseline;
+    margin-top: 20px;
+    display: flex;
+    gap:30px;
+}
+
+ .left{
+    display: flex;
+    flex-direction: column;
+}
+        
+.price-text {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.right {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.remaining-text {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 500;
+}
+
