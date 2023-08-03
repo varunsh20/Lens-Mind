@@ -1,8 +1,8 @@
 import { create } from 'ipfs-http-client';
 
 /* configure Infura auth settings */
-const projectId = "<your projectID>"
-const projectSecret = "<your projectSecret>"
+const projectId = "2MN5pgT2konhzACcrEY8a7VW3WA"
+const projectSecret = "0cc2b8f5f2f125ae312be098f689bb26"
 const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64')
 
     const client = create({

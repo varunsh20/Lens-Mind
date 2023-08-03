@@ -4,7 +4,7 @@ import "./conferenceStyles.css";
 const Conference = () => {
 
   const iframeConfig = {
-    roomUrl: "https://iframe.huddle01.com/anyvalue",
+    roomUrl: "https://iframe.huddle01.com/",
     height: "100%",
     width: "100%",
     noBorder: true, // false by default
