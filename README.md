@@ -15,7 +15,7 @@
 ![image](https://github.com/varunsh20/Lens-Mind/assets/62187533/eb5fd256-f1ec-4c24-9d95-22b64d480052)
 
 ## :hammer_and_wrench: Tech Stack
- - Node.js, GraphQL, Lens SDK, Alechmy, MetaMask, ThirdWeb, Ethers.js, JavaScript, React.js, CSS.
+ - Node.js, GraphQL, Lens SDK, Alchemy, MetaMask, ThirdWeb, Ethers.js, JavaScript, React.js, CSS.
 
 ## Usage
 - Users can **View and Interact** with posts, **Create/Edit** their Profile, create their own posts, set-up a **Meeting Room** using **Huddle01**.
